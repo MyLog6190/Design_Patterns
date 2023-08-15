@@ -8,9 +8,9 @@ public class Ship {
 
     private String logo;
 
-    private Wheel wheel;
+//    private Wheel wheel;
 
-    private Anchor anchor;
+//    private Anchor anchor;
 
     public String getName() {
         return name;
@@ -45,7 +45,7 @@ public class Ship {
                 '}';
     }
 
-    public Wheel getWheel() {
+/*    public Wheel getWheel() {
         return wheel;
     }
 
@@ -59,5 +59,5 @@ public class Ship {
 
     public void setAnchor(Anchor anchor) {
         this.anchor = anchor;
-    }
+    }*/
 }

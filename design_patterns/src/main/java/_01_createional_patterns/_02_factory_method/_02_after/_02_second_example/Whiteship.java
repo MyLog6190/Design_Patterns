@@ -7,4 +7,5 @@ public class Whiteship extends Ship {
         setLogo("\uD83D\uDEE5️");
         setColor("white");
     }
+
 }

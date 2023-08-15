@@ -7,4 +7,5 @@ public class Blackship extends Ship {
         setColor("black");
         setLogo("⚓");
     }
+
 }

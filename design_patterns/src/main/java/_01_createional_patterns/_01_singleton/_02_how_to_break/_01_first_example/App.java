@@ -1,4 +1,4 @@
-package _01_createional_patterns._01_singleton._02_how_to_break._01_first_method;
+package _01_createional_patterns._01_singleton._02_how_to_break._01_first_example;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.InvocationTargetException;

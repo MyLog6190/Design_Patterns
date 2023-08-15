@@ -1,4 +1,4 @@
-package _01_createional_patterns._01_singleton._02_how_to_break._02_second_method;
+package _01_createional_patterns._01_singleton._02_how_to_break._02_second_example;
 
 import java.io.*;
 
@@ -10,8 +10,8 @@ public class App {
    * */
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
-        _01_createional_patterns._01_singleton._02_how_to_break._02_second_method.Settings settings = _01_createional_patterns._01_singleton._02_how_to_break._02_second_method.Settings.getInstance();
-        _01_createional_patterns._01_singleton._02_how_to_break._02_second_method.Settings settings1;
+        _01_createional_patterns._01_singleton._02_how_to_break._02_second_example.Settings settings = _01_createional_patterns._01_singleton._02_how_to_break._02_second_example.Settings.getInstance();
+        _01_createional_patterns._01_singleton._02_how_to_break._02_second_example.Settings settings1;
 
         try(ObjectOutput out = new ObjectOutputStream( new FileOutputStream( "settings.obj" ) )) {
             out.writeObject(settings);
