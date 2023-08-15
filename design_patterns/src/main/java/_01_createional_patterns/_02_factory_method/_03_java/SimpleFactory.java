@@ -1,8 +1,8 @@
 package _01_createional_patterns._02_factory_method._03_java;
 
 
-import _01_createional_patterns._02_factory_method._02_after.Blackship;
-import _01_createional_patterns._02_factory_method._02_after.Whiteship;
+import _01_createional_patterns._02_factory_method._02_after._02_second_example.Blackship;
+import _01_createional_patterns._02_factory_method._02_after._02_second_example.Whiteship;
 
 public class SimpleFactory {
 

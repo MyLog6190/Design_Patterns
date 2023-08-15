@@ -1,4 +1,4 @@
-package _01_createional_patterns._02_factory_method._02_after;
+package _01_createional_patterns._02_factory_method._02_after._01_first_example;
 
 public interface ShipFactory {
 
@@ -10,9 +10,11 @@ public interface ShipFactory {
         return ship;
     }
 
-    void sendEmailTo(String email, Ship ship);
-
     Ship createShip();
+
+    private void sendEmailTo(String email, Ship ship) {
+        System.out.println(ship.getName() + " 다 만들었습니다.");
+    }
 
     private void validate(String name, String email) {
         if (name == null || name.isBlank()) {

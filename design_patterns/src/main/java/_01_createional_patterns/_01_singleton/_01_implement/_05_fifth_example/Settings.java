@@ -1,4 +1,4 @@
-package _01_createional_patterns._01_singleton._01_implement._05_the_fifth_method;
+package _01_createional_patterns._01_singleton._01_implement._05_fifth_example;
 
 public class Settings {
     /*
