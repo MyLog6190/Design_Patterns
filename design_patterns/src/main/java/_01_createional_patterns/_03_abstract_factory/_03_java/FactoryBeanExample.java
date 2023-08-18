@@ -1,6 +1,6 @@
 package _01_createional_patterns._03_abstract_factory._03_java;
 
-import me.whiteship.designpatterns._01_creational_patterns._02_factory_method._02_after.Ship;
+import _01_createional_patterns._02_factory_method._02_after._02_second_example.Ship;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
