@@ -10,5 +10,6 @@ public class ShipInventory {
         Ship ship = shipFactory.createShip();
         System.out.println(ship.getAnchor().getClass());
         System.out.println(ship.getWheel().getClass());
+
     }
 }
