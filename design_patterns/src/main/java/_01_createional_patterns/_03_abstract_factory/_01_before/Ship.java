@@ -1,4 +1,4 @@
-package _01_createional_patterns._02_factory_method._02_after._02_second_example;
+package _01_createional_patterns._03_abstract_factory._01_before;
 
 import _01_createional_patterns._03_abstract_factory._02_after.Anchor;
 import _01_createional_patterns._03_abstract_factory._02_after.Wheel;
@@ -10,6 +10,10 @@ public class Ship {
     private String color;
 
     private String logo;
+
+    private Wheel wheel;
+
+    private Anchor anchor;
 
     public String getName() {
         return name;
@@ -44,4 +48,19 @@ public class Ship {
                 '}';
     }
 
+    public Wheel getWheel() {
+        return wheel;
+    }
+
+    public void setWheel(Wheel wheel) {
+        this.wheel = wheel;
+    }
+
+    public Anchor getAnchor() {
+        return anchor;
+    }
+
+    public void setAnchor(Anchor anchor) {
+        this.anchor = anchor;
+    }
 }

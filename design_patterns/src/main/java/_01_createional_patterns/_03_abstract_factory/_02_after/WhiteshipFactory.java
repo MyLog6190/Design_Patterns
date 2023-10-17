@@ -1,8 +1,8 @@
 package _01_createional_patterns._03_abstract_factory._02_after;
 
-import _01_createional_patterns._02_factory_method._02_after._02_second_example.DefaultShipFactory;
-import _01_createional_patterns._02_factory_method._02_after._02_second_example.Ship;
-import _01_createional_patterns._02_factory_method._02_after._02_second_example.Whiteship;
+import _01_createional_patterns._03_abstract_factory._01_before.DefaultShipFactory;
+import _01_createional_patterns._03_abstract_factory._01_before.Ship;
+import _01_createional_patterns._03_abstract_factory._01_before.Whiteship;
 
 public class WhiteshipFactory extends DefaultShipFactory {
 

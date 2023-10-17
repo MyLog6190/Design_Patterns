@@ -1,7 +1,7 @@
 package _01_createional_patterns._03_abstract_factory._02_after;
 
-import _01_createional_patterns._02_factory_method._02_after._02_second_example.Ship;
-import _01_createional_patterns._02_factory_method._02_after._02_second_example.ShipFactory;
+import _01_createional_patterns._03_abstract_factory._01_before.Ship;
+import _01_createional_patterns._03_abstract_factory._01_before.ShipFactory;
 
 public class ShipInventory {
 
