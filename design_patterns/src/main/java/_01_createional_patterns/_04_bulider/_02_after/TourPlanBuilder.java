@@ -5,7 +5,6 @@ import _01_createional_patterns._04_bulider._01_before.TourPlan;
 import java.time.LocalDate;
 
 public interface  TourPlanBuilder {
-    TourPlanBuilder newInstance();
 
     TourPlanBuilder nightsAndDays(int nights, int days);
 
