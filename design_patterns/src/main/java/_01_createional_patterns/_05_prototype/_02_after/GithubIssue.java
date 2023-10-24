@@ -41,6 +41,16 @@ public class GithubIssue implements Cloneable {
                 this.getId());
     }
 
+    /*
+     * clone 매소드
+     * - 얕은 복사
+     *  - clone이 기본적으로 제공 해주는 기능은 얕은 복사이다.
+     *  - super.clone()를 그대로 리턴하면 얕은 복사로 복사가 된다.
+     *
+     * - 깊은 복사
+     *  - 깊은 복사를 사용하고 싶은 경우 clone 메소드를 변경하여
+     *  - 객체를 새로 생성해 가지고 있던 값들은 넣어 준다.
+     * */
     @Override
     protected Object clone() throws CloneNotSupportedException {
         GithubRepository repository = new GithubRepository();
