@@ -12,6 +12,12 @@ public class JavaCollectionExample {
         students.add(keesun);
         students.add(whiteship);
 
+        /*
+        * ArrayList를 복사할 떄 자주 사용 하는 방법
+        * ArrayList는 Cloneable를 상속 받지만 List는 상속 받지 않는다.
+        * 그래서 List는 clone()을 쓸 수 없어 ArrayList로 선언을 해야하기 때문에
+        * 이 방법을 더 선호 한다.
+        * */
         List<Student> clone = new ArrayList<>(students);
         System.out.println(clone);
     }

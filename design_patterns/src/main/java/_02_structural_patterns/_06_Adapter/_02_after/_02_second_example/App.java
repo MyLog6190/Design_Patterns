@@ -1,8 +1,8 @@
-package _02_structural_patterns._06_Adapter._02_after;
+package _02_structural_patterns._06_Adapter._02_after._02_second_example;
 
 
-import _02_structural_patterns._06_Adapter._02_after.security.LoginHandler;
-import _02_structural_patterns._06_Adapter._02_after.security.UserDetailsService;
+import _02_structural_patterns._06_Adapter._02_after._02_second_example.security.LoginHandler;
+import _02_structural_patterns._06_Adapter._02_after._02_second_example.security.UserDetailsService;
 
 public class App {
 

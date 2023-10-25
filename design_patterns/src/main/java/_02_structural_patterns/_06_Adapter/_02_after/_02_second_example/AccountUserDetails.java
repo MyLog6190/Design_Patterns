@@ -1,7 +1,7 @@
-package _02_structural_patterns._06_Adapter._02_after;
+package _02_structural_patterns._06_Adapter._02_after._02_second_example;
 
 
-import _02_structural_patterns._06_Adapter._02_after.security.UserDetails;
+import _02_structural_patterns._06_Adapter._02_after._02_second_example.security.UserDetails;
 
 public class AccountUserDetails implements UserDetails {
 

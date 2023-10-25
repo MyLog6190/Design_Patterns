@@ -1,4 +1,4 @@
-package _02_structural_patterns._06_Adapter._02_after;
+package _02_structural_patterns._06_Adapter._02_after._01_first_example;
 
 public class AccountService {
 
