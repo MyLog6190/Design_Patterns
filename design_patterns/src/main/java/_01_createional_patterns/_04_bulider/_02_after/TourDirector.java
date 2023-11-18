@@ -4,6 +4,11 @@ import _01_createional_patterns._04_bulider._01_before.TourPlan;
 
 import java.time.LocalDate;
 
+
+/*
+* TODO Director
+*  - 구현한 빌더 클래스를 조립하여 객체 생성읗 맡은 하는 클래스
+* */
 public class TourDirector {
 
     private TourPlanBuilder tourPlanBuilder;

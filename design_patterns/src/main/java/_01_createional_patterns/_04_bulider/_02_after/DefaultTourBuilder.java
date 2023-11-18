@@ -7,6 +7,10 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+* TODO ConcreateBuilder
+*  - 빌더를 구체적으로 구현하는 클래스
+* */
 public class DefaultTourBuilder implements TourPlanBuilder {
 
     private String title;

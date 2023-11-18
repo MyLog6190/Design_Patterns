@@ -34,7 +34,13 @@ import _02_structural_patterns._06_Adapter._02_after._01_first_example.security.
 *
 * */
 
-// TODO Client
+/*
+* TODO Client
+*  - Client에서 필요로 하는 로그인 기능을 기존에 있던 기존에 있던 인터페이스(target) UserDetails, UserDetailsService와
+*    클래스(Adaptee) Account, AccountUserService를 연결하는 클래스(Adapter) AccountUserDetails, AccountUserDetailsService
+*    사용하여 구현
+*  - 만약 인터페이스가 기존에 있던 클래스(Adaptee)와 호환이 안 된다면 Target 인터페이스를 설계하여 구현해야 한다.
+* */
 public class App {
     public static void main(String[] args) {
         AccountService accountService = new AccountService();
