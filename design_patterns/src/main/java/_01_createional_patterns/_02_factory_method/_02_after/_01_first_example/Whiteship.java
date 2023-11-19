@@ -1,5 +1,10 @@
 package _01_createional_patterns._02_factory_method._02_after._01_first_example;
 
+/*
+ * TODO ConcreteProduct
+ *  -
+ * */
+
 public class Whiteship extends Ship {
 
     public Whiteship() {

@@ -7,7 +7,8 @@ import java.time.LocalDate;
 
 /*
 * TODO Director
-*  - 구현한 빌더 클래스를 조립하여 객체 생성읗 맡은 하는 클래스
+*  - 구현한 빌더 클래스를 조립하여 객체 생성 하는 클래스
+*  - 빌더 클래스에서 자주 쓰이는 조합을 메소드로 만들어 객체 생성을 할 수 있게 구현
 * */
 public class TourDirector {
 

@@ -10,6 +10,8 @@ import java.util.List;
 /*
 * TODO ConcreateBuilder
 *  - 빌더를 구체적으로 구현하는 클래스
+*  - 인터페이스에서 정의한 매개변수들을 사용할 수 있도록 맴버변수로 사용
+*  - this를 리턴하여 사용하고자 하는 메소드를 조합하여 사용한다.
 * */
 public class DefaultTourBuilder implements TourPlanBuilder {
 
