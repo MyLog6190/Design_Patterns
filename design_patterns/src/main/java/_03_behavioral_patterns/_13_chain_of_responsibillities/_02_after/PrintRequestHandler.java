@@ -1,6 +1,6 @@
 package _03_behavioral_patterns._13_chain_of_responsibillities._02_after;
 
-import me.whiteship.designpatterns._03_behavioral_patterns._13_chain_of_responsibilities._01_before.Request;
+import _03_behavioral_patterns._13_chain_of_responsibillities._01_before.Request;
 
 public class PrintRequestHandler extends RequestHandler {
 
