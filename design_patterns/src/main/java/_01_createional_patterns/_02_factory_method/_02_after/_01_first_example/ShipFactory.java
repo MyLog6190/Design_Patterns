@@ -1,7 +1,7 @@
 package _01_createional_patterns._02_factory_method._02_after._01_first_example;
 
 /*
-* TODO Creator(Factory)
+*  Creator(Factory)
 *  - Factory Pattern을 적용할 객체의 인터페이스를 정의한다.
 *  - 구체적인 구현은 서브클래스에서 한다.
 * */

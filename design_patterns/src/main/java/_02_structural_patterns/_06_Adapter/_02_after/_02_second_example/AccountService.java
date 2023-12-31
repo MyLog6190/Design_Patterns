@@ -1,6 +1,10 @@
 package _02_structural_patterns._06_Adapter._02_after._02_second_example;
 
-public class AccountService {
+import _02_structural_patterns._06_Adapter._02_after._02_second_example.security.UserDetails;
+import _02_structural_patterns._06_Adapter._02_after._02_second_example.security.UserDetailsService;
+
+// Adepter 없이 직접 구현
+public class AccountService implements UserDetailsService {
 
     public Account findAccountByUsername(String username) {
         Account account = new Account();
@@ -18,4 +22,8 @@ public class AccountService {
 
     }
 
+    @Override
+    public UserDetails loadUser(String username) {
+        return findAccountByUsername(username);
+    }
 }

@@ -1,7 +1,7 @@
 package _02_structural_patterns._06_Adapter._02_after._01_first_example;
 
 /*
- * TODO Adaptee
+ *  Adaptee
  *  - 기존에 있던 클래스
  * */
 

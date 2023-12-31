@@ -1,6 +1,9 @@
 package _02_structural_patterns._06_Adapter._02_after._02_second_example;
 
-public class Account {
+import _02_structural_patterns._06_Adapter._02_after._02_second_example.security.UserDetails;
+
+// Adepter 없이 직접 구현
+public class Account implements UserDetails {
 
     private String name;
 
@@ -16,6 +19,12 @@ public class Account {
         this.name = name;
     }
 
+    @Override
+    public String getUsername() {
+        return this.name;
+    }
+
+    @Override
     public String getPassword() {
         return password;
     }
